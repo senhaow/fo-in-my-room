@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { InteractiveModelLoader } from "./ObjectWrapper";
-import { CameraControls, Plane, PresentationControls } from "@react-three/drei";
-import { PostProcessor } from "./PostProcessor";
+import { Plane } from "@react-three/drei";
 
 export const Scene = () => {
   return (
